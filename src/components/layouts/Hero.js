@@ -1,6 +1,6 @@
 import React from 'react';
 import Typography from '@material-ui/core/Typography';
-import {ThemeProvider, Box, Avatar, Button, } from '@material-ui/core';
+import {Box, Avatar, Button, } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 
@@ -46,7 +46,6 @@ export function Hero(){
               <Button variant="contained" color="primary" size="large">
                 more
               </Button>
-              <Box bgcolor="primary.main" m={3} p={3} className={classes.white}>said aoussar</Box>
             </Box>
           </Container>
         </div>

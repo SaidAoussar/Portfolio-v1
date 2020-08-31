@@ -29,9 +29,9 @@ export function NavBar () {
 
             <Navbar.Collapse id="responsive-navbar-nav">
               {/* <Nav className="ml-auto"> */}
-              <Scrollspy items={ ['hero'] } componentTag={Nav} className="ml-auto"> 
+              <Scrollspy items={ ['hero','projects'] } componentTag={Nav} className="ml-auto"> 
                 <Nav.Link href="#hero">About Me</Nav.Link>
-                <Nav.Link href="#features">Projects</Nav.Link>
+                <Nav.Link href="#projects">Projects</Nav.Link>
                 <Nav.Link href="#pricing">Contact</Nav.Link>
               </Scrollspy>
               {/* </Nav> */}
