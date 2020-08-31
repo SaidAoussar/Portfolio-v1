@@ -1,26 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
+import { theme } from './theme';
+import {ThemeProvider} from '@material-ui/core';
+import NavBar from './components/layouts/NavBar';
+import Hero from './components/layouts/Hero'
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+function App(){
+    return (
+      <ThemeProvider theme={theme}>
+        <NavBar></NavBar>
+        <Hero></Hero>
+      </ThemeProvider>
+    );
 }
 
 export default App;
