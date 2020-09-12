@@ -32,6 +32,7 @@ export function NavBar () {
               <Scrollspy items={ ['hero','projects'] } componentTag={Nav} className="ml-auto"> 
                 <Nav.Link href="#hero">About Me</Nav.Link>
                 <Nav.Link href="#projects">Projects</Nav.Link>
+                <Nav.Link href="#technologies">technologies</Nav.Link>
                 <Nav.Link href="#pricing">Contact</Nav.Link>
               </Scrollspy>
               {/* </Nav> */}

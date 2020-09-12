@@ -24,12 +24,12 @@ export default function Projects() {
             <Card>
               <CardActionArea>
                 <CardMedia
-                  style={{height:'200px'}}
+                  style={{height:'150px'}}
                   image="/assets/profil.jpg"
                 />
                 <CardContent>
                   <Typography gutterBottom component="h3" variant="h5">Library</Typography>
-                  <Typography variant="body1" color="textSecondary" component="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi dicta repellendus provident deserunt impedit voluptas dignissimos adipisci sunt nesciunt. 
+                  <Typography variant="body1" color="textSecondary" component="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi dicta . 
                   </Typography>
                 </CardContent>
               </CardActionArea>
@@ -46,12 +46,12 @@ export default function Projects() {
           <Card>
               <CardActionArea>
                 <CardMedia
-                  style={{height:'200px'}}
+                  style={{height:'150px'}}
                   image="/assets/profil.jpg"
                 />
                 <CardContent>
                   <Typography gutterBottom component="h3" variant="h5">Library</Typography>
-                  <Typography variant="body1" color="textSecondary" component="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi dicta repellendus provident deserunt impedit voluptas dignissimos adipisci sunt nesciunt. 
+                  <Typography variant="body1" color="textSecondary" component="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi dicta.
                   </Typography>
                 </CardContent>
               </CardActionArea>
@@ -68,12 +68,12 @@ export default function Projects() {
           <Card>
               <CardActionArea>
                 <CardMedia
-                  style={{height:'200px'}}
+                  style={{height:'150px'}}
                   image="/assets/profil.jpg"
                 />
                 <CardContent>
                   <Typography gutterBottom component="h3" variant="h5">Library</Typography>
-                  <Typography variant="body1" color="textSecondary" component="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi dicta repellendus provident deserunt impedit voluptas dignissimos adipisci sunt nesciunt. 
+                  <Typography variant="body1" color="textSecondary" component="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                   </Typography>
                 </CardContent>
               </CardActionArea>
