@@ -1,18 +1,7 @@
 import React from 'react'
 import {Box, Container, Grid, Typography} from '@material-ui/core'
-import { SiHtml5 } from "react-icons/si";
-import { FaCss3Alt } from "react-icons/fa";
-import { SiJavascript } from "react-icons/si";
-import { SiReact } from "react-icons/si";
-import { FaLaravel } from "react-icons/fa";
-import { SiFlutter } from "react-icons/si";
-
-
-
-
-
-
-
+import { SiHtml5, SiFlutter, SiReact, SiJavascript } from "react-icons/si";
+import { FaCss3Alt, FaLaravel } from "react-icons/fa";
 import { makeStyles } from '@material-ui/core/styles';
 
 
@@ -20,7 +9,11 @@ import { makeStyles } from '@material-ui/core/styles';
 const useStyles = makeStyles((theme)=>({
   iconLarge: {
     fontSize: '50px',
-  }
+    '&:hover' : {
+      color: theme.palette.primary.main,
+    }
+  },
+
 }));
 
 function Technology() {
