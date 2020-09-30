@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import Container from 'react-bootstrap/Container'
-import { palette } from '@material-ui/system';
 import { makeStyles } from '@material-ui/core/styles';
 import Scrollspy from 'react-scrollspy'
 
@@ -24,7 +23,7 @@ export function NavBar () {
       <div>
         <Navbar collapseOnSelect className={`p-3 ${classes.primary}`} expand="md" variant="dark">
           <Container>
-            <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+            <Navbar.Brand href="#home">SA</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 
             <Navbar.Collapse id="responsive-navbar-nav">
@@ -33,7 +32,7 @@ export function NavBar () {
                 <Nav.Link href="#hero">About Me</Nav.Link>
                 <Nav.Link href="#projects">Projects</Nav.Link>
                 <Nav.Link href="#technologies">technologies</Nav.Link>
-                <Nav.Link href="#pricing">Contact</Nav.Link>
+                <Nav.Link href="#Email">Contact</Nav.Link>
               </Scrollspy>
               {/* </Nav> */}
             </Navbar.Collapse>
