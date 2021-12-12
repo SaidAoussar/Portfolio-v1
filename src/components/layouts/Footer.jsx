@@ -1,7 +1,6 @@
 import React from 'react'
 import {Box, Typography} from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
-import { SiWhitesource } from 'react-icons/si';
 
 
 const useStyles = makeStyles((theme)=>({

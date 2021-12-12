@@ -1,5 +1,5 @@
 import React from 'react'
-import {Container, Paper, Grid, Card, CardActionArea, CardActions, CardContent, CardMedia, Typography, Button, Box} from '@material-ui/core';
+import {Container, Grid, Card, CardActionArea, CardActions, CardContent, CardMedia, Typography, Button, Box} from '@material-ui/core';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import { makeStyles } from '@material-ui/core/styles';
 
